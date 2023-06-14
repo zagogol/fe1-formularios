@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">    
+    <title>Tienda</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        
+        <div class="box-top">
+            20% de descuento en todos los productos! 
+        </div>
+        <div class="box-title">
+            <img src="img/img_logo.svg">
+            <h1>Tienda Patito</h1>
+        </div>
+        <nav>
+            <ul class="menu"> 
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">                           
+            <h2>Añadí tu super</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>                
+            <form action="index.html" method="post">
+                <div class="form">
+                    <div class="campos">
+                        <label for="nombre">*Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre" required>
+                        
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha">
+                        
+                        <textarea name="descripcion" id="descripcion" placeholder="Descripción"></textarea>
+                    </div>
+                    <div class="campos">
+                        <label for="especie">*Especie</label>
+                        <select name="especie" id="especie" required>
+                            <option>Especie</option>
+                        </select>
+
+                        <label for="foto">Agregar Foto</label>
+                        <input type="file" name="foto" id="foto">
+
+                        <label for="poderes" id="lblPoderes">Poderes</label>
+                        <input type="checkbox" name="poderes" id="poderes"> Volar 
+                        <br>
+                        <input type="checkbox" name="poderes" id="poderes"> Superinteligencia 
+                        <br>
+                        <input type="checkbox" name="poderes" id="poderes"> Vista de rayo láser 
+                        <br>
+                        <input type="checkbox" name="poderes" id="poderes"> Billetera gorda <br><br>                         
+                        <hr>
+                        <label for="tipo-personaje" id="lblTipoPersonaje">Tipo de personaje</label>
+                        <input type="radio" name="tipo-personaje" id="tipo-personaje"> Héroe / Heroína 
+                        <br>
+                        <input type="radio" name="tipo-personaje" id="tipo-personaje"> Villano / Villana 
+                        <br>
+                        
+                    </div>
+                </div>
+                <button name="Anadir" id="Anadir">Añadir</button>
+            </form>
+        </div>            
+    </main>
+    <footer>
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+</body>
+</html>

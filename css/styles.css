@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: Roboto, sans-serif; 
+    font-weight:200;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;  
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight:200;
+    margin: 0px 0px 0px 0px;    
+}
+
+.box-top {
+    background-color: #1CD1B0;
+    color: black;
+    font-size: 1rem;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 27px;
+    text-align:left;
+    vertical-align:middle;    
+    width: 100vw;
+}
+
+.box-title {
+    background-color: #00669F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    padding: 28px 0px 26px 28px;
+    width: 100vw;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.menu li {
+    margin: 10px;
+    list-style: none;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formulario {
+    background-color: #00669F;
+    border-radius: 50px;
+    color: white;
+    margin: 30px 15px 30px 15px;
+    padding: 20px 60px;
+    width: 800px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.formulario h2 {
+    font-size: 40px;
+    padding: 10px 0px 10px 0px;
+}
+
+.campos {
+    padding: 10px 30px 20px 30px;
+    width: 50%;
+}
+
+.campos label {
+    display: block;
+    margin-top: 10px;
+}
+
+#Nombre, #fecha, #descripcion, #especie, #foto {
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    margin: 15px 0px;
+    padding: 10px;
+    width: 280px;
+}
+
+#descripcion {
+    height: 260px;
+}
+
+#lblPoderes, #lblTipoPersonaje {
+    margin: 20px 0px 20px;
+}
+
+#poderes, #tipo-personaje {
+    display:inline;
+    height: 20px;
+    padding: 5px 10px 5px 0px;
+    width: 20px;
+}
+
+.element-button {    
+    margin-top: 20px;
+    text-align: center;    
+}
+
+button {
+    background-color: #1CD1B0;
+    border-radius: 16px;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px 37px;
+    
+}
+
+footer {
+    padding: 16px 0px 16px 16px;
+    background-color: #00669F;
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
